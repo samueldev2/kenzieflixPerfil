@@ -1,0 +1,43 @@
+
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.92);
+}
+
+
+.text{
+    color: #ffff;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    justify-content: end;
+    
+}
+section{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+justify-content: space-around;
+position: absolute;
+width: 718px;
+height: 194px;
+left: 272px;
+top: 286px;
+}
+#ph{
+    width: 150px;
+    height: 150px;
+    left: 0;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#btn{
+    align-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
